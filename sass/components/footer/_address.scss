@@ -1,0 +1,29 @@
+// Адреса у футері
+
+.address__item-setting {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $footer-text-contact;
+  text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  // hover,focus
+  &:hover,
+  &:focus {
+    color: $interactive-text-color;
+  }
+}
+
+.address__link-map {
+  color: $primary-bg-color;
+}
