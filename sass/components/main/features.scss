@@ -1,13 +1,49 @@
 // Секція особливості
 
-.features {}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.features__item {
+  width: 270px;  
+}
 
-.features__item {}
+.features__item-setting {
+  margin-right: 30px;
 
-.features__box {}
+  &:nth-last-child(1){
+    margin-right: 0;
+  }
+}
 
+.features__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
 
+  background-color: $team-bg-color;
+}
 
-.features__title {}
+.features__box-setting {
+  margin-bottom: 30px;
+}
 
-.features__text {}
+.features__title {
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features__title-setting {
+  margin-bottom: 10px;
+}
+
+.features__text {
+  color: $secondary-text-color;
+  font-size: 14px;
+  line-height: 1.71;
+}
