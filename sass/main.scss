@@ -18,15 +18,15 @@
 // ---Головна інформація на сторінці
 
 // Секція замовлення послуги
-@import './components/main/service' ;
+@import './components/main/webstudio/service' ;
 // Секція особливостей компанії 
-@import './components/main/features.scss';
+@import './components/main/webstudio/features' ;
 // Секція Чим ми займаємось
-@import './components/main/work';
+@import './components/main/webstudio/work';
 // Секція Наша Команда
-@import './components/main/team';
+@import './components/main/webstudio/team';
 // Секція клієнтів
-@import './components/main/clients' ;
+@import './components/main/webstudio/clients' ;
 
 // ---Підвал сайту
 
