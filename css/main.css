@@ -346,8 +346,17 @@ ul {
   text-decoration: none;
 }
 
-.logo__color-text {
+.logo__header-color {
   color: #000000;
+}
+
+.logo__footer-color {
+  color: #FFFFFF;
+}
+
+.page-footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .site-nav {
@@ -860,10 +869,11 @@ ul {
 }
 
 .mailing-list__title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--additional-text-color);
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 

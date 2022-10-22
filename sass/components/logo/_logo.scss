@@ -7,7 +7,20 @@
   line-height: 1.2;
   text-decoration: none;
 }
-  
-.logo__color-text {
+
+// header logo
+.logo__header-color {
   color: $logo-text-color;
+}
+
+// footer logo
+.logo__footer-color {
+  color: $additional-text-color;
+}
+
+
+.page-footer__logo {
+  display:inline-block;
+
+  margin-bottom: 20px;
 }

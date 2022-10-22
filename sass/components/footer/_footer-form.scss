@@ -5,10 +5,12 @@
 }
 
 .mailing-list__title {
+  display: block;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
-  color: var(--additional-text-color);
+  color: $additional-text-color;
 
   text-transform: uppercase;
 }
