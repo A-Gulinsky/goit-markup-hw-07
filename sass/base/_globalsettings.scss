@@ -16,6 +16,23 @@ body {
   padding-bottom: 94px;
   
   background-color: $additional-bg-color;
+
+  // Padding 0 - section WORK
+  &:nth-last-child(3) {
+    padding-top: 0;
+  }
+}
+
+.section__title {
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section_title-setting {
+  margin-bottom: 50px;
 }
 
 // Глобальне налаштування контейнеру
@@ -43,7 +60,7 @@ body {
 }
 
 /* Налаштунок фото */
-.img {
+img {
   display: block;
 }
 

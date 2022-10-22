@@ -258,6 +258,21 @@ body {
   padding-bottom: 94px;
   background-color: #FFFFFF;
 }
+.section:nth-last-child(3) {
+  padding-top: 0;
+}
+
+.section__title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section_title-setting {
+  margin-bottom: 50px;
+}
 
 .container {
   width: 1200px;
@@ -283,7 +298,7 @@ body {
 }
 
 /* Налаштунок фото */
-.img {
+img {
   display: block;
 }
 
@@ -549,4 +564,48 @@ ul {
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.work-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.work-list__item {
+  width: 370px;
+}
+
+.work-list__item-setting {
+  margin-right: 30px;
+}
+.work-list__item-setting:last-child {
+  margin-right: 0;
+}
+
+.work-list__box {
+  position: relative;
+}
+
+.work-list__inner-box {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-list__inner-text {
+  padding-bottom: 27px;
+  padding-top: 27px;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
