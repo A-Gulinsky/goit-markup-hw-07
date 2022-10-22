@@ -21,6 +21,11 @@ body {
   &:nth-last-child(3) {
     padding-top: 0;
   }
+
+  // background-color - section TEAM
+  &:nth-last-child(2) {
+    background-color: $team-bg-color;
+  }
 }
 
 .section__title {

@@ -1,0 +1,36 @@
+// Секція клієнтів
+
+.clients-list {
+  display: flex;
+}
+
+.clients-list__item-setting {
+  margin-right: 30px;
+
+  &:nth-child(6){
+    margin-right: 0;
+  }
+}
+
+.clients-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid $border-clients-static;
+  fill: $border-clients-static;
+
+  transition-property: border , fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  // hover,focus
+  &:hover,
+  &:focus {
+    outline: transparent;
+    fill: $interactive-text-color;
+    border-color: $interactive-text-color;
+  }
+} 
