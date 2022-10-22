@@ -1,0 +1,26 @@
+// Глобальне налаштування
+@import './utils/variables' ;
+@import './base/normalize.scss' ;
+@import './base/globalsettings' ;
+
+// Page WEBSTUDIO
+
+// ---Шапка сайту 
+
+@import './components/header/page-header' ;
+// Лого
+@import './components/logo/logo' ;
+// Navbar
+@import './components/header/site-nav' ;
+// Контакти
+@import './components/header/header-contacts' ;
+
+// ---Головна інформація на сторінці
+
+// Секція замовлення послуги
+@import './components/main/service' ;
+// Секція особливостей компанії 
+
+
+
+

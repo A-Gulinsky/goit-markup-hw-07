@@ -1,0 +1,48 @@
+// Контактні дані
+
+.info-list {
+  display: flex;
+}
+
+.info-list__box {
+  margin-left: auto;
+}
+
+.info-list__item {
+  display: block;
+  margin-right: 50px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.info-list__link{
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 31px;
+
+  color: $secondary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.info-list__link--focused {
+  &:hover,
+  &:focus {
+    color: $interactive-text-color;
+  }
+}
+
+.info-list__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

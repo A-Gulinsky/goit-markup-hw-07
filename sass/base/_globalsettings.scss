@@ -1,0 +1,68 @@
+// Глобальні налаштування 
+
+body {
+  font-family: $primary-font-style;
+  letter-spacing: 0.03em;
+  
+  background-color: $additional-bg-color;
+  
+  color: $secondary-text-color;
+}
+
+// Секції
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+  background-color: $additional-bg-color;
+}
+
+// Глобальне налаштування контейнеру
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Паттерн visually-hidden */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Налаштунок фото */
+.img {
+  display: block;
+}
+
+/* Глобальне скидання */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin: 0; 
+ padding: 0;
+}
+
+/* Налаштування для списків */
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}

@@ -5,42 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link>
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- Шапка сайту -->
     <header class="page-header">
-      <div class="container">
+      <div class="container page-header__container">
         <!-- Лого сайту -->
         <a class="logo" href="">
-          <span class="logo__color-text">Web</span>Studio
+          Web<span class="logo__color-text">Studio</span>
         </a>
 
         <!-- Навігаційне меню сайту -->
         <nav class="site-nav">
           <ul class="site-nav__list">
             <li class="site-nav__item">
-              <a class="site-nav--current link">Студія</a>
+              <a class="site-nav__link site-nav__link--focused site-nav__link--current">Студія</a>
             </li>
 
             <li class="site-nav__item">
-              <a class="link">Портфоліо</a>
+              <a class="site-nav__link site-nav__link--focused" href="#">Портфоліо</a>
             </li>
 
             <li class="site-nav__item">
-              <a class="link">Контакти</a>
+              <a class="site-nav__link site-nav__link--focused">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <!-- Контакти -->
-        <ul class="info-list">
+        <ul class="info-list info-list__box">
           <li class="info-list__item">
-            <a class="info-list__link" href="mailto:info@devstudio.com">
+            <a class="info-list__link info-list__link--focused" href="mailto:info@devstudio.com">
+              <svg class="info-list__icon" width="16" height="12">
+                <use 
+                  href="./images/icons.svg#icon-envelope"
+                  width="16"
+                  height="12">
+                </use>
+              </svg>
               <span class="info-list__text">info@devstudio.com</span>
             </a>
           </li>
           <li class="info-list__item">
-            <a class="info-list__link" href="tel:+380961111111">
+            <a class="info-list__link info-list__link--focused" href="tel:+380961111111">
+              <svg class="info-list__icon" width="10" height="16">
+                <use 
+                  href="./images/icons.svg#icon-smartphone"
+                  width="10"
+                  height="16">
+                </use>
+              </svg>
               <span class="info-list__text">+38 096 111 11 11</span>
             </a>
           </li>
@@ -52,15 +72,13 @@
     <main class="page-main">
       <!-- Замовлення послуги -->
       <section class="service">
-        <div class="service__background-image">
-          <div class="container">
-            <h1 class="service__title">
+        <div class="service__background-image page-main__background-img">
+          <div class="service__container container ">
+            <h1 class="service__title service__title-setting">
               Ефективні рішення для вашого бізнесу
             </h1>
-            <button class="service__btn">
-              <span class="service__btn-text">
-                Замовити послугу
-              </span>
+            <button class="service__btn service__btn--focused">
+                <span class="service__btn-text">Замовити послугу</span>
             </button>
           </div>
         </div>
@@ -78,7 +96,11 @@
           <!-- Список особливостей -->
           <ul class="features">
             <li class="features__item">
-              <div class="features__box"></div>
+              <div class="features__box">
+                <svg class="features__icon" width="70" height="70">
+                  <use></use>
+                </svg>
+              </div>
               <h3 class="features__title">
                 Увага до деталей
               </h3>
@@ -89,7 +111,11 @@
             </li>
 
             <li class="features__item">
-              <div class="features__box"></div>
+              <div class="features__box">
+                <svg class="features__icon" width="70" height="70">
+                  <use></use>
+                </svg>
+              </div>
               <h3 class="features__title">
                 Пунктуальність
               </h3>
@@ -100,7 +126,11 @@
             </li>
 
             <li class="features__item">
-              <div class="features__box"></div>
+              <div class="features__box">
+                <svg class="features__icon" width="70" height="70">
+                  <use></use>
+                </svg>
+              </div>
               <h3 class="features__title">Планування</h3>
               <p class="features__text">
                 Так само консультація з широким активом значною мірою зумовлює.
@@ -108,7 +138,11 @@
             </li>
 
             <li class="features__item">
-              <div class="features__box"></div>
+              <div class="features__box">
+                <svg class="features__icon" width="70" height="70">
+                  <use></use>
+                </svg>
+              </div>
               <h3 class="features__title">
                 Сучасні технології
               </h3>
@@ -453,7 +487,7 @@
 
           <!-- Лого -->
           <a class="logo" href="">
-            <span class="logo logo__color-text">Web</span>Studio
+            Web<span class="logo__color-text">Studio</span>
           </a>
 
           <!-- Адреса -->

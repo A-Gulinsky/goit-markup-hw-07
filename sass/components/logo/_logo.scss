@@ -1,0 +1,13 @@
+// Лого сайту 
+
+.logo {
+  color: $interactive-text-color;
+  font-family: $logo-font-style;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+  
+.logo__color-text {
+  color: $logo-text-color;
+}

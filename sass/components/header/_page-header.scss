@@ -1,0 +1,12 @@
+// Блок шапки 
+
+.page-header {
+  border-bottom: 1px solid $header-line-color;
+
+  background-color: $additional-bg-color;
+}
+
+.page-header__container {
+  display: flex;
+  align-items: center;
+}
