@@ -3,9 +3,8 @@
 @import './base/normalize.scss' ;
 @import './base/globalsettings' ;
 
-// Page WEBSTUDIO
 
-// ---Шапка сайту 
+// -----Шапка сайту 
 
 @import './components/header/page-header' ;
 // Лого
@@ -15,9 +14,9 @@
 // Контакти
 @import './components/header/header-contacts' ;
 
-// ---Головна інформація на сторінці
+// -----Головна інформація на сторінці
 
-// Сторінка WebStudio
+// ---Сторінка WebStudio
 
 // Секція замовлення послуги
 @import './components/main/webstudio/service' ;
@@ -30,14 +29,14 @@
 // Секція клієнтів
 @import './components/main/webstudio/clients' ;
 
-// Сторінка Portfolio
+// ---Сторінка Portfolio
 
 // Конпки фільтрації
 @import './components/main/portfolio/filters-btn';
 // Картки Портфоліо
 @import './components/main/portfolio/portfolio-cards' ;
 
-// ---Підвал сайту
+// -----Підвал сайту
 
 @import './components/footer/page-footer';
 // Адреса
@@ -46,4 +45,14 @@
 @import './components/footer/footer-socials';
 // Форма на розсилку 
 @import './components/footer/footer-form';
+
+// -----------------------------------------------------------
+
+// -----Модальне вікно
+
+// ---backdrop
+
+
+
+
 
