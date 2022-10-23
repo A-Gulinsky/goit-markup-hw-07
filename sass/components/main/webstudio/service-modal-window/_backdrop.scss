@@ -68,8 +68,8 @@
   cursor: pointer;
 
   // hover,focus
-  &:hover,
-  &:focus {
+  &--focused:hover,
+  &--focused:focus {
     fill: $modal-field-focus-color;
   }
 
@@ -78,5 +78,17 @@
     position: absolute;
     top: 8px;
     right: 8px;
+  }
+}
+
+.modal__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: $modal-text-color;
+
+  &-setting {
+    margin-bottom: 12px;
   }
 }
