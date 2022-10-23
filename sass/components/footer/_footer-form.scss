@@ -51,28 +51,17 @@
 }
 
 .mailing-list__btn {
+
+  //mixin button 
+  @include button($width: 200px, $padding: 10px 28px);
+
   display: inline-flex;
   align-items: center;
 
-  margin-left: 12px;
-  /* min-width: 200px; */
-  padding: 10px 28px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  text-align: center;
-
-  color: $additional-text-color;
-  border-radius: 4px;
-
-  background-color: $interactive-text-color;
-  border: 1px solid transparent;
-
-  cursor: pointer;
+  //setting
+  &-setting {
+    margin-left: 12px;
+  }
 }
 
 .mailing-list__btn-icon {
