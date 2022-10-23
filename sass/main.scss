@@ -17,6 +17,8 @@
 
 // ---Головна інформація на сторінці
 
+// Сторінка WebStudio
+
 // Секція замовлення послуги
 @import './components/main/webstudio/service' ;
 // Секція особливостей компанії 
@@ -27,6 +29,13 @@
 @import './components/main/webstudio/team';
 // Секція клієнтів
 @import './components/main/webstudio/clients' ;
+
+// Сторінка Portfolio
+
+// Конпки фільтрації
+@import './components/main/portfolio/filters-btn';
+// Картки Портфоліо
+@import './components/main/portfolio/portfolio-cards' ;
 
 // ---Підвал сайту
 
