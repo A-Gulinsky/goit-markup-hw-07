@@ -77,8 +77,12 @@
             <h1 class="service__title service__title-setting">
               Ефективні рішення для вашого бізнесу
             </h1>
-            <button class="service__btn service__btn--focused">
-                <span class="service__btn-text">Замовити послугу</span>
+            <button 
+              class="service__btn service__btn--focused"
+              type="button" 
+              data-modal-open>
+
+                Замовити послугу
             </button>
           </div>
         </div>
@@ -730,5 +734,19 @@
         </div>
       </div>
     </footer>
+
+    <!-- Модальне вікно -->
+
+    <div class="backdrop backdrop__setting backdrop--is-hidden" data-modal>
+      <div class="modal modal__setting">
+        <button class="modal__button modal__button-setting" type="button" data-modal-close>
+          <svg class="modal__icon-close" width="18" height="18">
+            <use href="./images/icons.svg#icon-modalclose"></use>
+          </svg>
+        </button>
+      </div>
+    </div>    
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
