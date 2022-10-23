@@ -32,10 +32,11 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
 
-.service__title-setting {
-  margin-bottom: 30px;
+  //setting
+  &-setting {
+    margin-bottom: 30px;
+  }
 }
 
 .service__btn {

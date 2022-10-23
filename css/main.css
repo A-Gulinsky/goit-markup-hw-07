@@ -451,7 +451,6 @@ ul {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .info-list__link--focused:hover, .info-list__link--focused:focus {
   color: #2196F3;
 }
@@ -491,7 +490,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
 .service__title-setting {
   margin-bottom: 30px;
 }
@@ -534,7 +532,6 @@ ul {
 .features__item {
   width: 270px;
 }
-
 .features__item-setting {
   margin-right: 30px;
 }
@@ -555,7 +552,6 @@ ul {
   height: 120px;
   background-color: #F5F4FA;
 }
-
 .features__box-setting {
   margin-bottom: 30px;
 }
@@ -567,7 +563,6 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
-
 .features__title-setting {
   margin-bottom: 10px;
 }
@@ -589,7 +584,6 @@ ul {
 .work-list__item {
   width: 370px;
 }
-
 .work-list__item-setting {
   margin-right: 30px;
 }
@@ -637,7 +631,6 @@ ul {
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-list__item-setting {
   margin-right: 30px;
 }
@@ -772,7 +765,6 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .filter-list__setting {
   margin-bottom: 50px;
 }
@@ -931,6 +923,9 @@ ul {
 .address__item-setting {
   margin-bottom: 9px;
 }
+.address__item-setting:last-child {
+  margin-bottom: 0;
+}
 
 .address__link {
   font-size: 14px;
@@ -947,12 +942,11 @@ ul {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address__link:hover, .address__link:focus {
-  color: #2196F3;
-}
-
 .address__link-map {
   color: #F5F5F5;
+}
+.address__link:hover, .address__link:focus {
+  color: #2196F3;
 }
 
 .socials-box__setting {
@@ -966,7 +960,6 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 .socials-box__title-setting {
   margin-bottom: 20px;
 }
@@ -1027,7 +1020,6 @@ ul {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-
 .mailing-list__title-setting {
   margin-bottom: 20px;
 }
@@ -1217,9 +1209,11 @@ ul {
   margin-bottom: 20px;
 }
 
-.form__span-text {
-  display: inline-block;
+.form__span-box-setting {
   margin-bottom: 4px;
+}
+
+.form__span-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1269,6 +1263,7 @@ ul {
 }
 
 .form__comment {
+  display: block;
   padding: 12px 16px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);

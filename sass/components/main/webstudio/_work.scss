@@ -7,13 +7,14 @@
 
 .work-list__item {
   width: 370px;
-}
 
-.work-list__item-setting {
-  margin-right: 30px;
+  //setting
+  &-setting {
+    margin-right: 30px;
 
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 

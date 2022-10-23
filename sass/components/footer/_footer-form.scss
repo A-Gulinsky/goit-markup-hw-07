@@ -1,7 +1,9 @@
 // Форма розсилки 
 
-.mailing-list__setting {
-  margin-left: 93px;
+.mailing-list {
+  &__setting {
+    margin-left: 93px;
+  }
 }
 
 .mailing-list__title {
@@ -13,10 +15,11 @@
   color: $additional-text-color;
 
   text-transform: uppercase;
-}
 
-.mailing-list__title-setting {
-  margin-bottom: 20px;
+  // setting 
+  &-setting {
+    margin-bottom: 20px;
+  }
 }
 
 .mailing-list__input {

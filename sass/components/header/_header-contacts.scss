@@ -33,14 +33,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} 
 
-.info-list__link--focused {
-  &:hover,
-  &:focus {
+  // focus,hover 
+  &--focused:hover,
+  &--focused:focus {
     color: $interactive-text-color;
   }
-}
+} 
 
 .info-list__icon {
   margin-right: 10px;

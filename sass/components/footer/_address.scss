@@ -1,7 +1,13 @@
 // Адреса у футері
 
-.address__item-setting {
+.address__item {
+  &-setting {
   margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+  }
 }
 
 .address__link {
@@ -17,13 +23,14 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+  //color map-link
+  &-map {
+    color: $primary-bg-color;
+  } 
+
   // hover,focus
   &:hover,
   &:focus {
     color: $interactive-text-color;
   }
-}
-
-.address__link-map {
-  color: $primary-bg-color;
 }

@@ -14,13 +14,14 @@
 
   background-color: $additional-bg-color;
   border-radius: 0px 0px 4px 4px;
-}
 
-.team-list__item-setting {
-  margin-right: 30px;
+  //setting
+  &-setting {
+    margin-right: 30px;
 
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 

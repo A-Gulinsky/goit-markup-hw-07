@@ -532,7 +532,7 @@
       <section class="section">
         <div class="container">
 
-          <h2 class="section__title section_title-setting">Наші Клієнти</h2>
+          <h2 class="section__title section_title-setting">Наші клієнти</h2>
 
           <!-- Список клієнтів -->
           <ul class="clients-list">
@@ -722,7 +722,7 @@
           <form class="mailing-list__form" autocomplete="off">
             <input class="mailing-list__input" type="email" name="email" placeholder="E-mail">
 
-            <button class="mailing-list__btn">
+            <button class="mailing-list__btn" type="button">
                 Підписатися
               <svg class="mailing-list__btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-footer-iconsend"></use>
@@ -752,9 +752,11 @@
           <ul class="form__list">
             <li class="form__item form__item-setting">
               <label class="form__lable">
+ 
+                <div class="form__span-box form__span-box-setting">
+                  <span class="form__span-text">Ім'я</span>
+                </div>
 
-                <span class="form__span-text">Ім'я</span>
-              
                 <div class="form__box">
                   <input
                     class="form__input form__input--focused"
@@ -770,8 +772,10 @@
             <li class="form__item form__item-setting">
               <label class="form__lable">
 
-                <span class="form__span-text">Телефон</span>
-              
+                <div class="form__span-box form__span-box-setting">
+                  <span class="form__span-text">Телефон</span>
+                </div>
+
                 <div class="form__box">
                   <input
                     class="form__input form__input--focused"
@@ -787,8 +791,10 @@
             <li class="form__item form__item-setting">
               <label class="form__lable">
 
-                <span class="form__span-text">Пошта</span>
-              
+                <div class="form__span-box form__span-box-setting">
+                  <span class="form__span-text">Пошта</span>
+                </div>
+
                 <div class="form__box">
                   <input
                     class="form__input form__input--focused"
@@ -802,13 +808,15 @@
               </label>
             </li>
             <li class="form__item form__item-setting">
-              <label class="form__label" for="comments"
-                ><span class="form__span-text">Коментар</span></label
-              >
+              <label class="form__label">
+
+                <div class="form__span-box form__span-box-setting">
+                  <span class="form__span-text">Коментар</span>
+                </div>
+              </label>
               <textarea
                 class="form__comment"
                 name="comments"
-                id="comments"
                 cols="30"
                 rows="10"
                 placeholder="Введіть текст"
@@ -828,6 +836,7 @@
                 <use href="./images/icons.svg#icon-icon-checked"></use>
               </svg>
 
+              
               <span class="form__ckeckbox-text">
                 Погоджуюсь з розсилкою та приймаю
                 <a class="form__link" href="">Умови договору</a>

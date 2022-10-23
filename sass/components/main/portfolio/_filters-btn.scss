@@ -4,17 +4,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  //setting
+  &__setting {
+    margin-bottom: 50px;
+  }
 }
 
-.filter-list__setting {
-  margin-bottom: 50px;
-}
+.filter-list__item {
 
-.filter-list__item-setting {
-  margin-right: 6px;
+  //setting
+  &-setting {
+    margin-right: 6px;
 
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 

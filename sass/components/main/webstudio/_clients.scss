@@ -4,11 +4,14 @@
   display: flex;
 }
 
-.clients-list__item-setting {
-  margin-right: 30px;
+.clients-list__item {
 
-  &:nth-child(6){
-    margin-right: 0;
+  &-setting{
+    margin-right: 30px;
+
+    &:nth-child(6){
+      margin-right: 0;
+    }
   }
 }
 
@@ -33,4 +36,4 @@
     fill: $interactive-text-color;
     border-color: $interactive-text-color;
   }
-} 
+}

@@ -14,14 +14,19 @@
 
   &:last-child {
     margin-bottom: 20px;
-  }
+   }
 }
 
 
-.form__span-text {
-  display: inline-block;
+.form__span-box {
+  
+  //setting
+  &-setting {
+    margin-bottom: 4px;
+  }
+}
 
-  margin-bottom: 4px;
+.form__span-text {
 
   font-weight: 400;
   font-size: 12px;
@@ -76,6 +81,8 @@
 // Коментар
 
 .form__comment {
+  display: block;
+
   padding: 12px 16px;
 
   border-radius: 4px;
@@ -159,6 +166,7 @@
 }
 
 .form__ckeckbox-text {
+
   padding-left: 37px;
 
   font-weight: 400;
